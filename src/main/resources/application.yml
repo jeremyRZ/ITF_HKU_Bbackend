@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/itf_hku?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: password
+mybatis:
+  type-aliases-package: com.itf.backend.model
+  config-location: classpath:mybatis.xml

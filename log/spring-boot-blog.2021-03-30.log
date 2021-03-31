@@ -1,0 +1,598 @@
+2021-03-30 11:37:00 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 23360 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 11:37:00 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 11:37:00 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 11:37:01 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.237 seconds (JVM running for 1.66) 
+2021-03-30 11:37:42 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 11:37:42 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 11:37:42 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:15:57 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 24556 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 14:15:57 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 14:15:57 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 14:15:58 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.254 seconds (JVM running for 1.726) 
+2021-03-30 14:16:05 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 14:16:05 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 14:16:05 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:16:14 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 14:16:14 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 14:16:14 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:16:50 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 22908 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 14:16:50 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 14:16:50 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 14:16:51 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.325 seconds (JVM running for 1.789) 
+2021-03-30 14:17:00 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 14:17:00 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 14:17:00 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:17:01 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 14:17:01 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 14:17:01 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:17:37 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 16588 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 14:17:37 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 14:17:37 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 14:17:38 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.219 seconds (JVM running for 1.636) 
+2021-03-30 14:18:55 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 20596 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 14:18:55 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 14:18:55 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 14:18:56 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.232 seconds (JVM running for 1.646) 
+2021-03-30 14:20:14 [http-nio-8080-exec-7] ERROR c.i.b.config.GlobalExceptionHandler : 
+ org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 14:20:33 [http-nio-8080-exec-6] ERROR c.i.b.config.GlobalExceptionHandler : 
+ java.lang.RuntimeException: 无token，请重新登录
+	at com.itf.backend.config.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:40)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 14:21:24 [http-nio-8080-exec-9] ERROR c.i.b.config.GlobalExceptionHandler : 
+ java.lang.RuntimeException: 无token，请重新登录
+	at com.itf.backend.config.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:40)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 14:21:31 [http-nio-8080-exec-5] ERROR c.i.b.config.GlobalExceptionHandler : 
+ org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 14:21:36 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 14:21:36 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 14:21:36 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:24:56 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 14:24:56 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 14:24:56 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:25:04 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 14:25:04 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: test2(String) 
+2021-03-30 14:25:04 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:33:38 [http-nio-8080-exec-6] ERROR c.i.b.config.GlobalExceptionHandler : 
+ org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 14:33:42 [http-nio-8080-exec-9] ERROR c.i.b.config.GlobalExceptionHandler : 
+ java.lang.RuntimeException: 无token，请重新登录
+	at com.itf.backend.config.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:40)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 14:34:27 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 23992 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 14:34:27 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 14:34:27 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 14:34:28 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.276 seconds (JVM running for 1.993) 
+2021-03-30 14:34:38 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:34:38 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:34:38 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:34:39 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:34:39 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:34:39 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:34:57 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 17488 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 14:34:57 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 14:34:57 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 14:34:58 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.395 seconds (JVM running for 1.822) 
+2021-03-30 14:35:01 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:35:01 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:35:01 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:35:03 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:35:03 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:35:03 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:37:17 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 14040 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 14:37:17 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 14:37:17 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 14:37:18 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.267 seconds (JVM running for 1.692) 
+2021-03-30 14:37:26 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:37:26 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:37:26 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:42:36 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:42:36 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:42:36 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:43:11 [http-nio-8080-exec-6] ERROR c.i.b.config.GlobalExceptionHandler : 
+ java.lang.RuntimeException: 无token，请重新登录
+	at com.itf.backend.config.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:40)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 14:43:51 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:43:51 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:43:51 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 14:44:04 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 14:44:04 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 6(Integer) 
+2021-03-30 14:44:04 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 15:23:51 [http-nio-8080-exec-4] ERROR c.i.b.config.GlobalExceptionHandler : 
+ org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Object com.itf.backend.api.LoginApi.login(com.itf.backend.model.User)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:131)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-30 15:24:13 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-30 15:24:13 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-03-30 15:24:13 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 15:25:00 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 15:25:00 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 5(Integer) 
+2021-03-30 15:25:00 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 15:25:13 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 26636 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-30 15:25:13 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-30 15:25:13 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-30 15:25:14 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.282 seconds (JVM running for 1.705) 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 5(Integer) 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ ==>  Preparing: INSERT INTO post (author_id, title, content) VALUES (?, ?, ?); 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ ==> Parameters: 5(Integer), I am a title(String), just a test whlcome to ilab hku(String) 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ <==    Updates: 1 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ ==>  Preparing: SELECT post.id, post.author_id , post.title , post.content , post.create_time , post.update_time, `user`.id as author__id, `user`.`name` as author__name FROM post LEFT JOIN `user` ON `user`.id=post.author_id WHERE post.id=? 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ ==> Parameters: 1(Integer) 
+2021-03-30 15:25:49 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 5(Integer) 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ ==>  Preparing: INSERT INTO post (author_id, title, content) VALUES (?, ?, ?); 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ ==> Parameters: 5(Integer), I am a title(String), just a test whlcome to ilab hku(String) 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ <==    Updates: 1 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ ==>  Preparing: SELECT post.id, post.author_id , post.title , post.content , post.create_time , post.update_time, `user`.id as author__id, `user`.`name` as author__name FROM post LEFT JOIN `user` ON `user`.id=post.author_id WHERE post.id=? 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ ==> Parameters: 2(Integer) 
+2021-03-30 15:26:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ <==      Total: 1 
