@@ -18,14 +18,17 @@
         SELECT
         post.id,
         post.author_id ,
-        post.title ,
+        post.title,
         post.content ,
         post.create_time,
         post.update_time,
         <!-- 作者信息，password 不需要就不查了 -->
         `user`.id as author__id,
-        `user`.`name` as author__name
+        `user`.`name` as author__name,
+        `user`.`post` as author__post,
+        `user`.`emailAddress` as author__emailAddress
         FROM post
+        <!-- 将user表格并入post表格 -->
         LEFT JOIN `user` ON `user`.id=post.author_id
         <where>
             <if test="id!=null">

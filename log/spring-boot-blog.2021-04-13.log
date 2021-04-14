@@ -1,0 +1,24 @@
+2021-04-13 12:55:16 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-13 12:55:16 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-13 12:55:16 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-13 13:20:44 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-13 13:20:44 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-13 13:20:44 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-13 14:34:30 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-13 14:34:30 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-13 14:34:30 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-13 17:39:41 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-13 17:39:41 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-13 17:39:41 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
