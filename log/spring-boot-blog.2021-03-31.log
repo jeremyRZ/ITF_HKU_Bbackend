@@ -1,0 +1,157 @@
+2021-03-31 10:27:34 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 10064 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-31 10:27:34 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-31 10:27:34 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-31 10:27:35 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.319 seconds (JVM running for 1.78) 
+2021-03-31 10:51:33 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 26232 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-03-31 10:51:33 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-03-31 10:51:33 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-03-31 10:51:34 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.271 seconds (JVM running for 1.696) 
+2021-03-31 10:52:52 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-31 10:52:52 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-03-31 10:52:53 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 0 
+2021-03-31 10:52:53 [http-nio-8080-exec-1] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ ==>  Preparing: insert into user(name, password,post,emailAddress,cellNumber) values (?,?,?,?,?) 
+2021-03-31 10:52:53 [http-nio-8080-exec-1] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ ==> Parameters: jeremy(String), 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92(String), inspector(String), ruizhao@hku.hk(String), 69986845(String) 
+2021-03-31 10:52:53 [http-nio-8080-exec-1] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ <==    Updates: 1 
+2021-03-31 10:52:53 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-31 10:52:53 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 1(Integer) 
+2021-03-31 10:52:53 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 10:53:17 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-31 10:53:17 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-03-31 10:53:17 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 10:54:58 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-31 10:54:58 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 1(Integer) 
+2021-03-31 10:54:58 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 11:03:38 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-31 11:03:38 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-03-31 11:03:38 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 11:03:41 [http-nio-8080-exec-9] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-31 11:03:41 [http-nio-8080-exec-9] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-03-31 11:03:41 [http-nio-8080-exec-9] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 11:09:49 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-31 11:09:49 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-03-31 11:09:49 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 11:10:05 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-31 11:10:05 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-03-31 11:10:05 [http-nio-8080-exec-1] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 11:20:26 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-31 11:20:26 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 5(Integer) 
+2021-03-31 11:20:26 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 0 
+2021-03-31 11:20:26 [http-nio-8080-exec-4] ERROR c.i.b.config.GlobalExceptionHandler : 
+ java.lang.RuntimeException: 用户不存在，请重新登录
+	at com.itf.backend.config.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:50)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 1(Integer) 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ ==>  Preparing: INSERT INTO post (author_id, title, content) VALUES (?, ?, ?); 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ ==> Parameters: 1(Integer), I am a title(String), just a test welcome to ilab hku(String) 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.itf.backend.mapper.PostMapper.add : 
+ <==    Updates: 1 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ ==>  Preparing: SELECT post.id, post.author_id , post.title , post.content , post.create_time, post.update_time, `user`.id as author__id, `user`.`name` as author__name FROM post LEFT JOIN `user` ON `user`.id=post.author_id WHERE post.id=? 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ ==> Parameters: 3(Integer) 
+2021-03-31 11:20:51 [http-nio-8080-exec-5] DEBUG c.i.b.mapper.PostMapper.findOne : 
+ <==      Total: 1 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: Mike(String) 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 0 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ ==>  Preparing: insert into user(name, password,post,emailAddress,cellNumber) values (?,?,?,?,?) 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ ==> Parameters: Mike(String), 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92(String), Manager(String), mike@hku.hk(String), 66998855(String) 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ <==    Updates: 1 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 2(Integer) 
+2021-03-31 11:29:49 [http-nio-8080-exec-7] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
