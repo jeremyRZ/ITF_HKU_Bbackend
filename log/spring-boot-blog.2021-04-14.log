@@ -1,0 +1,274 @@
+2021-04-14 10:20:53 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 10:20:53 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: Jeremy(String) 
+2021-04-14 10:20:53 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 15:11:00 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 15:11:00 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: Simon(String) 
+2021-04-14 15:11:00 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: Testing(String) 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 0 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ ==>  Preparing: insert into user(name, password,post,emailAddress,cellNumber) values (?,?,?,?,?) 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ ==> Parameters: Testing(String), 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92(String), inspector(String), simon@hku.hk(String), 55555555(String) 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.itf.backend.mapper.UserMapper.add : 
+ <==    Updates: 1 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE id=? 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: 5(Integer) 
+2021-04-14 15:11:32 [http-nio-8080-exec-10] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 15:20:12 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 15:20:12 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-14 15:20:12 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 15:49:49 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 15:49:49 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-14 15:49:49 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 15:51:54 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 15:51:54 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-14 15:51:54 [http-nio-8080-exec-6] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 15:56:35 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 15:56:35 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-14 15:56:35 [http-nio-8080-exec-8] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 15:59:43 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 19356 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 15:59:43 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 15:59:43 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:00:45 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 20736 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:00:45 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:00:45 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:00:46 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.278 seconds (JVM running for 1.714) 
+2021-04-14 16:07:47 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 11812 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:07:47 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:07:47 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:07:48 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.263 seconds (JVM running for 1.716) 
+2021-04-14 16:08:16 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 16:08:16 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-14 16:08:16 [http-nio-8080-exec-2] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 16:09:29 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 17764 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:09:29 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:09:29 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:09:30 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.266 seconds (JVM running for 1.69) 
+2021-04-14 16:09:47 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 16:09:47 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-14 16:09:47 [http-nio-8080-exec-4] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 16:10:18 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 19548 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:10:18 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:10:18 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:10:19 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.276 seconds (JVM running for 1.701) 
+2021-04-14 16:10:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==>  Preparing: select * from user WHERE name=? 
+2021-04-14 16:10:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ ==> Parameters: jeremy(String) 
+2021-04-14 16:10:46 [http-nio-8080-exec-3] DEBUG c.i.b.mapper.UserMapper.findOne : 
+ <==      Total: 1 
+2021-04-14 16:45:04 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 19304 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:45:04 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:45:04 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:46:10 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 12876 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:46:10 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:46:10 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:46:33 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 25876 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:46:33 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:46:33 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:47:30 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 14988 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:47:30 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:47:30 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:54:47 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 27460 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 16:54:47 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 16:54:47 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 16:54:48 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.265 seconds (JVM running for 1.7) 
+2021-04-14 18:09:28 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 8480 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:09:28 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:09:28 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:09:40 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 9212 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:09:40 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:09:40 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:15:36 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 10340 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:15:36 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:15:36 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:19:11 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 21632 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:19:11 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:19:11 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:22:40 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 23128 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:22:40 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:22:40 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:27:16 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 28172 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:27:16 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:27:16 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:31:20 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 26828 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:31:20 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:31:20 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:32:11 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 28400 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:32:11 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:32:11 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:34:23 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 19724 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:34:23 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:34:23 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:36:16 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 28468 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:36:16 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:36:16 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:37:25 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 6516 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:37:25 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:37:25 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:38:34 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 25680 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:38:34 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:38:34 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:39:25 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 28368 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:39:25 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:39:25 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:43:24 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 18280 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:43:24 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:43:24 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:43:39 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 17092 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:43:39 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:43:39 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:44:00 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 28488 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:44:00 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:44:00 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:45:51 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 20648 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:45:51 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:45:51 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:46:14 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 20668 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:46:14 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:46:14 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:46:14 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 12688 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:46:14 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:46:14 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:46:15 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.372 seconds (JVM running for 1.838) 
+2021-04-14 18:47:10 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 14696 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:47:10 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:47:10 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:47:11 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.266 seconds (JVM running for 1.711) 
+2021-04-14 18:54:21 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Starting DemoApplication using Java 1.8.0_275 on DESKTOP-D4T0GAH with PID 26992 (E:\Working\SpringBoot\spring-boot-backend\target\classes started by Jeremy in E:\Working\SpringBoot\spring-boot-backend) 
+2021-04-14 18:54:21 [restartedMain] DEBUG com.itf.backend.DemoApplication : 
+ Running with Spring Boot v2.4.4, Spring v5.3.5 
+2021-04-14 18:54:21 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ No active profile set, falling back to default profiles: default 
+2021-04-14 18:54:22 [restartedMain] INFO  com.itf.backend.DemoApplication : 
+ Started DemoApplication in 1.268 seconds (JVM running for 1.712) 

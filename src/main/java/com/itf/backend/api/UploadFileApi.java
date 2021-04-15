@@ -1,5 +1,6 @@
 package com.itf.backend.api;
 
+import com.itf.backend.annotation.LoginRequired;
 import com.itf.backend.model.UploadFileResponse;
 import com.itf.backend.service.FileStorageService;
 import org.slf4j.Logger;
@@ -20,19 +21,20 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-public class FileController {
+public class UploadFileApi {
 
-    private static final Logger logger = LoggerFactory.getLogger(FileController.class);
+    private static final Logger logger = LoggerFactory.getLogger(UploadFileApi.class);
 
     @Autowired
     private FileStorageService fileStorageService;
 
-    @PostMapping("/uploadFile")
+    @PostMapping("/api/uploadFile")
+    @LoginRequired
     public UploadFileResponse uploadFile(@RequestParam("file") MultipartFile file) {
         String fileName = fileStorageService.storeFile(file);
 
         String fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath()
-                .path("/downloadFile/")
+                .path("data/wch/filemanagement/")
                 .path(fileName)
                 .toUriString();
 
@@ -40,7 +42,8 @@ public class FileController {
                 file.getContentType(), file.getSize());
     }
 
-    @PostMapping("/uploadMultipleFiles")
+    @PostMapping("/api/uploadMultipleFiles")
+    @LoginRequired
     public List<UploadFileResponse> uploadMultipleFiles(@RequestParam("files") MultipartFile[] files) {
         return Arrays.asList(files)
                 .stream()
@@ -48,7 +51,7 @@ public class FileController {
                 .collect(Collectors.toList());
     }
 
-    @GetMapping("/downloadFile/{fileName:.+}")
+    @GetMapping("data/wch/filemanagement/{fileName:.+}")
     public ResponseEntity<Resource> downloadFile(@PathVariable String fileName, HttpServletRequest request) {
         // Load file as Resource
         Resource resource = fileStorageService.loadFileAsResource(fileName);
