@@ -13,5 +13,4 @@ public class Report {
     private String drawingID;
     private Integer taskID;
     private String inspValues;
-    private List list;
 }

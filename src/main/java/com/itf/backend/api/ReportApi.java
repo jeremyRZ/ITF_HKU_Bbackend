@@ -1,7 +1,10 @@
 package com.itf.backend.api;
 
 import com.alibaba.fastjson.JSONObject;
+import com.itf.backend.annotation.CurrentUser;
+import com.itf.backend.annotation.LoginRequired;
 import com.itf.backend.model.Module;
+import com.itf.backend.model.Post;
 import com.itf.backend.model.Report;
 import com.itf.backend.model.User;
 import com.itf.backend.service.ReportService;
@@ -24,7 +27,13 @@ public class ReportApi {
         this.reportService = reportService;
     }
 
-    @PostMapping("")
+    @PostMapping("/sendInspData")
+    public Report add(@RequestBody Report report) {
+        report = reportService.add(report);
+        return report;
+    }
+
+    @PostMapping("/generation")
     @ResponseBody
     public List<Report> listReportByTaskID(@RequestBody Report taskID, Module module){
         return ReportService.listReportByTaskID(taskID,module);
