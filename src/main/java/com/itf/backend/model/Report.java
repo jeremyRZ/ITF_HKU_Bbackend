@@ -13,4 +13,7 @@ public class Report {
     private String drawingID;
     private Integer taskID;
     private String inspValues;
+//    private String elementType;
+//    private String defaultValues;
+//    private String uniqueValues;
 }
