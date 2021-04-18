@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<style>
+body td{
+	font-family: Arial, PMingLiu;
+	font-size: 10pt;
+}
+table{
+	border-spacing:0;
+	padding: 0;
+	border: 0;
+}
+.data{
+	border: 1pt solid black;
+}
+.data td{
+	margin: 0;
+	padding: 0;
+	border: 1pt solid black;
+}
+.namefor{
+	width: 148pt;
+	text-align: right;
+}
+.underline{
+	width: 148pt;
+	border-bottom: 1.5pt solid black;
+}
+</style>
+</head>
+<body>
+<div>
+<table style="width: 594pt">
+<tr><td width="50%" rowspan="5"><img src="https://hac.org.hk/wp-content/uploads/2019/10/Paul_Y_Engineering.jpg" style="max-height: 80pt;" /></td><td colspan="4" style="font-size: 13pt; font-weight: 600;">Pre-Wield Length Check Record</td></tr>
+<tr><td>Project<br>項目:</td><td colspan="3">HKU Student Residences at Wong Chuk Hang<br>香港大學黃竹坑學生宿舍</td></tr>
+<tr><td>Module No. 箱号:</td><td id="moduleNo">%s</td><td>Floor 楼层:</td><td id="floor">%s</td></tr>
+<tr><td>Drawing No. 图号:</td><td colspan="3" id="drawingNo">%s</td></tr>
+</table>
+</div>
+<div>
+<table id="tblData" class="data" style="width: 594pt">
+<tr><td>No.<br>序号</td><td>Element<br>构件</td><td>Element Marker<br>构件编号</td><td>Length No.<br>长度编号</td><td>Drawing LNG<br>设计长度(mm)</td><td>Actual LNG<br>实际长度(mm)</td><td>Arranged by<br>(YG/PY) 组织人</td><td>Conducted by 执行人<br>(RC/RSE/AP/BSI/COW)</td><td>Remarks<br>备注</td></tr>
+<tr><td>1</td><td>----[Data here]----</td></tr>
+</table>
+</div>
+<table style="width: 594pt">
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr><td class="namefor">Date</td><td class="underline"></td><td></td><td></td></tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr><td class="namefor">Checked by<br>Name &nbsp;</td><td class="underline"></td><td class="namefor">Reviewed by<br>Name &nbsp;</td><td class="underline"></td></tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+<tr><td class="namefor">TCP - RC T1/T3<br>Name &nbsp;</td><td class="underline"></td><td class="namefor">TCP - RSE T3/T5<br>Name &nbsp;</td><td class="underline"></td></tr>
+</table>
+</body>
+</html>
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script>
+var markerTxt = '<tr><td>1</td><td>----[Data here]----</td></tr>';
+
+//pseudo data feeder
+// var data = {'data': [{
+//     id: 7,
+//     moduleID: null,
+//     floor: '3/F',
+//     drawingID: null,
+//     taskID: 1,
+//     inspValues: 'Ceiling Beam|RHS120B|F|1910||YG|S/NS|'
+//   },
+//   {
+//     id: 17,
+//     moduleID: null,
+//     floor: '3/F',
+//     drawingID: null,
+//     taskID: 1,
+//     inspValues: 'Ceiling Beam1|RHS120B11|F|191011||YG|S/NS|'
+//   },
+//   ]}
+
+function json2table(data)
+{
+    // console.log(data)
+	var tbody = ''
+	$.each( data, function( i, entry )
+	{
+		// convert each inspValues into a row
+		if (entry.inspValues.indexOf('|') < 0)
+			return;
+		var rowText = '<tr><td>'+(i+1)+'</td>';
+		var values = entry.inspValues.split('|');
+		values.forEach(function(v, idx){
+			rowText += '<td>' + v + '</td>';
+		});
+		rowText += '</tr>';
+		tbody += rowText;
+		console.log(values)
+		if (i == 0)
+		{
+			$("#moduleNo").html(entry.moduleID);
+			$("#floor").html(entry.floor);
+			$("#drawingNo").html(entry.drawingID);
+		}
+	});
+	
+	$( "#tblData" ).html($( "#tblData" ).html().replace(markerTxt, tbody));
+}
+
+
+
+// (function() {
+//   var dataAPI = "http://147.8.147.247:8080/api/report";
+//   $.getJSON( dataAPI, {
+//     tags: "mount rainier",
+//     tagmode: "any",
+//     format: "json"
+//   })
+//     .done(function( data ) {
+// 		json2table(data);
+//     });
+// })();
+
+
+(function() {
+  // var dataAPI = "http://147.8.147.247:8080/api/report";
+    var Postdata = {
+        "taskID":1,
+        "moduleID": "M1S1"
+    }
+
+    $.ajax({
+        url: 'http://147.8.147.247:8080/api/report',
+        type: 'post',
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(Postdata),
+        dataType: 'json',
+        success:function( data ) {
+            json2table(data);
+        }
+    })
+})();
+
+
+</script>
