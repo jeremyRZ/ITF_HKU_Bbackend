@@ -20,7 +20,7 @@ public class RegisterApi {
     public Object add(@RequestBody User user) {
         if (regService.findByName(user.getName()) != null) {
             JSONObject jsonObject = new JSONObject();
-            jsonObject.put("message","用户名已被使用");
+            jsonObject.put("message", "用户名已被使用");
             return jsonObject;
         }
         return regService.add(user);

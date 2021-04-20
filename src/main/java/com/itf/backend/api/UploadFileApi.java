@@ -1,6 +1,7 @@
 package com.itf.backend.api;
 
 import com.itf.backend.annotation.LoginRequired;
+import com.itf.backend.model.Material;
 import com.itf.backend.model.UploadFileResponse;
 import com.itf.backend.service.FileStorageService;
 import org.slf4j.Logger;
@@ -45,11 +46,32 @@ public class UploadFileApi {
     @PostMapping("/api/uploadMultipleFiles")
     @LoginRequired
     public List<UploadFileResponse> uploadMultipleFiles(@RequestParam("files") MultipartFile[] files) {
+//        Test test = JSONObject.parseObject(entity, Test.class);
         return Arrays.asList(files)
                 .stream()
                 .map(file -> uploadFile(file))
                 .collect(Collectors.toList());
+
     }
+
+    // TODO: 2021/4/19 Return the right file to database
+//    @RequestMapping("jsonDataAndUploadFile")
+//    @ResponseBody
+//    public String jsonDataAndUploadFile(@RequestPart("uploadFile") List<MultipartFile> uploadFiles,
+//                                        @RequestPart("jsonData") Material material) {
+//        StringBuilder sb = new StringBuilder();
+//        uploadFiles.forEach(u -> sb.append(u.getOriginalFilename()).append(";;;"));
+//        return "Success" + material.toString() + ":::" + sb.toString();
+//    }
+
+    @RequestMapping("jsonDataAndUploadFile")
+    @ResponseBody
+    public String jsonDataAndUploadFile(@RequestPart("jsonData") Material material) {
+
+        return "Success" + material.toString() ;
+    }
+
+
 
     @GetMapping("data/wch/filemanagement/{fileName:.+}")
     public ResponseEntity<Resource> downloadFile(@PathVariable String fileName, HttpServletRequest request) {
@@ -65,7 +87,7 @@ public class UploadFileApi {
         }
 
         // Fallback to the default content type if type could not be determined
-        if(contentType == null) {
+        if (contentType == null) {
             contentType = "application/octet-stream";
         }
 

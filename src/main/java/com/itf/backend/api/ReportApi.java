@@ -35,8 +35,8 @@ public class ReportApi {
 
     @PostMapping("/generation")
     @ResponseBody
-    public List<Report> listReportByTaskID(@RequestBody Report taskID, Module module){
-        return ReportService.listReportByTaskID(taskID,module);
+    public List<Report> listReportByTaskID(@RequestBody Report taskID, Module module) {
+        return ReportService.listReportByTaskID(taskID, module);
     }
 
 //    @ResponseBody

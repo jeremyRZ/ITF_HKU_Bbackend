@@ -18,7 +18,7 @@ public class RegService {
     }
 
     public User add(User user) {
-        String passwordHash =  passwordToHash(user.getPassword());
+        String passwordHash = passwordToHash(user.getPassword());
         user.setPassword(passwordHash);
         userMapper.add(user);
         return findById(user.getId());
@@ -56,6 +56,7 @@ public class RegService {
         }
         return null;
     }
+
     public boolean comparePassword(User user, User userInDataBase) {
         return passwordToHash(user.getPassword())      // 将用户提交的密码转换为 hash
                 .equals(userInDataBase.getPassword()); // 数据库中的 password 已经是 hash，不用转换

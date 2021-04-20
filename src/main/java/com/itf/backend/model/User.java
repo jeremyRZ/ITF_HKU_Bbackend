@@ -10,4 +10,6 @@ public class User {
     private String post;
     private String emailAddress;
     private String cellNumber;
+
+
 }

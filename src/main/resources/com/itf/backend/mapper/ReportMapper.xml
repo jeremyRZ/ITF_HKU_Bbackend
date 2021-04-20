@@ -2,7 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.itf.backend.mapper.ReportMapper">
     <insert id="add" useGeneratedKeys="true" keyProperty="id">
-        insert into inspection(id, moduleID,floor,drawingID,taskID,inspValues) values (#{id},#{moduleID},#{floor},#{drawingID},#{taskID},#{inspValues})
+        insert into inspection(id, moduleID,floor,drawingID,taskID,inspValues) values
+        (#{id},#{moduleID},#{floor},#{drawingID},#{taskID},#{inspValues})
     </insert>
 
 
@@ -13,7 +14,7 @@
             <if test="taskID!=null">
                 taskID=#{taskID}
             </if>
-            <!--            <if test="name!=null">-->
+            <!--            <if Material="name!=null">-->
             <!--                and name=#{name}-->
             <!--            </if>-->
         </where>
